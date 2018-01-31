@@ -8,5 +8,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/aditi/Desktop/everything/coding/tomcat/apache-tomcat-7.0.84/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aditi/Desktop/everything/coding/postgres/postgresql-42.2.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
