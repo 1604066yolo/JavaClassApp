@@ -16,8 +16,13 @@ public class TestServlet extends HttpServlet {
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		if (req.getAttribute("username").equals("user") && req.getAttribute("password").equals("pass"))
+		String user = (String) req.getParameter("username");
+		String pass = (String) req.getParameter("password");
+		System.out.println(user);
+		System.out.println(pass);
+		if (user.equals("user") && pass.equals("pass"))
 			resp.sendRedirect("login.html");
-	}
+		else resp.sendRedirect("login-failed.html");
+	}	
 
 }
